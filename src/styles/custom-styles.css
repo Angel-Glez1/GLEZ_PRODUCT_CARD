@@ -1,0 +1,57 @@
+.bg-dark {
+    background-color: rgb(56, 56, 56);
+}
+
+.grid {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 2px;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-bold {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, .7);
+}
+
+.custom-image {
+    border-radius: 20px;
+    padding: 10px;
+    width: calc(100% - 20px);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2)
+}
+
+
+.custom-buttons button,
+.custom-buttons div {
+    color: white;
+    border-color: white;
+}
+
+.shopping-card{
+    position: fixed;
+    right: 10px;
+    top: 0;
+}
+
+.btn-reset{ 
+    padding: 6px;
+    margin: 0 auto;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #ccc;
+    color: #ccc;
+    width: 90%;
+    display: block;
+    border-radius: 12px;
+    margin-bottom: 9px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+}
